@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+  background: url(https://i.postimg.cc/15jsHTmf/166702.jpg) center/cover no-repeat;
+  font-family: "transparent", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+header {
+  background-image: url('https://i.postimg.cc/1zSKm484/Pngtree-ramadan-kareem-decorations-with-lanterns-6181551.png');
+  padding: 100px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+footer {
+  padding: 15px;
+  color: #fff;
+  position: solid;
+  bottom: 0;
+  width: 100px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 30px;
+  color: transparent; /* اختر لونًا مناسبًا للحواف */
+  -webkit-text-stroke: 3px #ffffff; /* حواف خارجية للمتصفحات القائمة على Webkit مثل Chrome و Safari */
+  font-weight: bold; /* قد تحتاج لتعديل وزن الخط حسب الخط المستخدم */
+}
+
+#calendar {
+  flex-direction: row-reverse;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.day {
+  width: 80px;
+  height: 80px;
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(255, 254, 254, 0.418);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.day:hover {
+  background-color: rgb(179, 95, 7);
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1), 0px 0px 15px rgba(255, 255, 255, 1);
+}
+
+.day-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* تمييز الأيام الماضية */
+.past-day {
+  background-color: rgba(165, 6, 6, 0.6); /* أو أي لون تفضله للأيام الماضية */
+  color: #fff; /* لتحسين قراءة النص */
+}
+
+/* تمييز الأيام القادمة */
+.future-day {
+  background-color: rgba(2, 170, 2, 0.748); /* أو أي لون تفضله للأيام القادمة */
+  color: #ffffff; /* لتحسين قراءة النص */
+}
+
+#prayerTimes {
+  margin-top: 20px;
+  padding: 20px;
+  background-color:rgba(187, 103, 13, 0.239); /* لون خلفية مربع أوقات الصلاة مع شفافية */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff; /* لون النص في مربع أوقات الصلاة */
+}
+
+.current-day {
+  background-color:rgba(220, 156, 61, 0.628); /* لون الخلفية لليوم الحالي مع شفافية */
+  transform: scale(1.05);
+}
+
+.prayer-table {
+  width: 50%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 80px;
+}
+
+.prayer-table th, .prayer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.prayer-table th {
+  background-color: rgba(2, 98, 105, 0.58); /* لون خلفية عنوان الجدول مع شفافية */
+  color: white;
+}
