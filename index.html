@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Correction Bot</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>Choose the type of file you want to correct:</p>
+    <button onclick="selectFileType('python')">Python 🐍</button>
+    <button onclick="selectFileType('php')">PHP 🐘</button>
+
+    <form id="fileForm" action="/upload" method="post" enctype="multipart/form-data" style="display:none;">
+        <input type="file" name="file" id="fileInput">
+        <input type="hidden" name="fileType" id="fileTypeInput">
+        <input type="submit" value="Upload">
+    </form>
+
+    <script>
+        function selectFileType(fileType) {
+            document.getElementById('fileTypeInput').value = fileType;
+            document.getElementById('fileInput').click();
+        }
+    </script>
+</body>
+</html>
