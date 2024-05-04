@@ -1,45 +1,11 @@
-# Today I Learned for Programmers - Tiloid
+# Termux Setup Guide
 
-Welcome to Today I Learned for Programmers - Tiloid! This repository contains a collection of useful tips, guides, and code snippets contributed by programmers like you.
+This guide helps you set up Termux with essential packages and languages.
 
-## Table of Contents
+## Installation
 
-- [Converting a String to Enum](#converting-a-string-to-enum)
-- [README.md: The Ultimate Guide](#readmemd-the-ultimate-guide)
-- [Recursively Grep All Directories and Subdirectories](#recursively-grep-all-directories-and-subdirectories)
-- [Setting the Default Node Version using NVM](#setting-the-default-node-version-using-nvm)
-- [Adding Multiple Classes to a Component](#adding-multiple-classes-to-a-component)
-- [Running TypeScript Files from Command Line](#running-typescript-files-from-command-line)
-- [Validate Nested Objects Using Class Validator](#validate-nested-objects-using-class-validator)
-- [Making an HTTP POST Request](#making-an-http-post-request)
-- [Making a Div 100% Height of the Browser Window](#making-a-div-100-height-of-the-browser-window)
-- [Docker Container Has No Internet](#docker-container-has-no-internet)
+1. **Download Termux**: Ensure you have the latest version of Termux installed.
+2. **Copy & Paste Commands**: Run the following commands in your Termux terminal:
 
-## Converting a String to Enum
-
-In TypeScript, you can convert a string to an enum value by using the enum and valueOf() method. Enumerations, or enums, provide a way to define a set...
-
-Author: Alba Silvente Fuentes
-Posted: 10 months ago
-Views: 2
-Discussion: [Link](https://tiloid.com/discuss/13463)
-
-## README.md: The Ultimate Guide
-
-When it comes to open-source projects, documentation is key. And at the heart of this documentation is the README.md file. In this comprehensive guide...
-
-Author: Naveen Sahu
-Posted: 1 year ago
-Views: 6
-Discussion: [Link](https://tiloid.com/discuss/26456)
-
-## Recursively Grep All Directories and Subdirectories
-
-To search for a specific pattern in all directories and their subdirectories in Linux, you can use the grep command with the -r option. Using the grep...
-
-Author: Annie
-Posted: 1 year ago
-Views: 3672
-Discussion: [Link](https://tiloid.com/discuss/3672)
-
-... (continue with the rest of the content)
+```shell
+pkg install git python python2 && pkg install wget ruby proot clang && termux-setup-storage && apt install php git golang -y && apt install nano && apt install cmatrix && pkg install figlet && pkg install wget && pkg install cowsay && pkg install toilet && pkg install ruby && gem install lolcat && pkg install curl && pkg install unzip && pkg install openssh && pkg install tor && pkg install net-tools && pkg install unrar && pkg install clang && pkg install w3m && pkg install proot && pip2 install wget && pip2 install requests && pkg install pacman4console && pkg install vim && pip install colorama && pip install bundle && gem install bundle && gem install bundler && pip2 install requests && pip install --upgrade pip
