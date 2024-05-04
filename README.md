@@ -1,6 +1,6 @@
 # Termux Setup Guide
 
-![Termux Setup Guide](banner_image.jpg)
+![Termux Setup Guide](banner.jpg)
 
 This guide helps you set up Termux with essential packages and languages, If you encounter errors or issues with certain tools in Termux, follow these steps for troubleshooting:
 
