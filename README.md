@@ -1,5 +1,7 @@
 # Termux Setup Guide
 
+![Upload Image to Telegra.ph](banner_image.jpg)
+
 This guide helps you set up Termux with essential packages and languages, If you encounter errors or issues with certain tools in Termux, follow these steps for troubleshooting:
 
 ## Installation
