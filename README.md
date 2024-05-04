@@ -23,3 +23,60 @@ pkg install git python python2 && pkg install wget ruby proot clang && termux-se
 ```shell
  pkg --check-mirror update
 ```
+
+- Install Git: Install the Git package:
+
+```shell
+ pkg install git -y
+```
+
+- Install Command Patch: Install the Fish package for command patch:
+
+```shell
+pkg install fish -y
+```
+
+## Languages Installation
+
+Ensure the following languages are installed for development:
+
+- Python: Install Python language:
+
+```shell
+ apt install python -y
+```
+
+- Python 2: Install Python 2 language:
+
+```shell
+ apt install python2 -y
+```
+
+- Ruby: Install Ruby language:
+
+```shell
+ apt install ruby ​​-y
+```
+
+- PHP: Install PHP language:
+
+```shell
+ apt install php -y
+```
+
+- Go: Install Go language:
+
+```shell
+ apt install golang -y
+```
+
+- C: Install C language:
+```shell
+ apt install clang -y
+```
+
+- Dart: Install Dart language:
+```shell
+ apt install dart -y
+```
+
