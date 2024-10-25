@@ -6,7 +6,7 @@ This guide helps you set up Termux with essential packages and languages, If you
 
 ## Installation
 
-1. **Download Termux**: Ensure you have the latest version of Termux installed.
+1. **Download Termux**: Ensure you have the latest version of Termux installed from [GitHub](https://github.com/termux/termux-app/releases) or [F-Droid](https://f-droid.org/packages/com.termux/).
 2. **Copy & Paste Commands**: Run the following commands in your Termux terminal:
 
 ```shell
@@ -81,4 +81,3 @@ Ensure the following languages are installed for development:
 ```shell
  apt install dart -y
 ```
-
