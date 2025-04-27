@@ -83,3 +83,44 @@ Ensure the following languages are installed for development:
 ```shell
  apt install dart -y
 ```
+## Important Commands
+
+| Command | Description |
+|---------|-------------|
+| `pkg list-all` | List all available packages |
+| `pkg search <tool>` | Search for a package |
+| `pkg show <package>` | Show package details |
+| `termux-info` | Display Termux system info |
+| `termux-open <file>` | Open a file |
+| `termux-clipboard-set` | Copy text to clipboard |
+
+
+## Optimization & Maintenance 
+
+- Clean Cache & Old Files
+```bash  
+pkg clean  
+apt autoremove  
+```  
+
+- Check for Broken Packages
+```bash  
+pkg check  
+```  
+
+- Backup & Restore
+```bash  
+tar -zcvf termux-backup.tar.gz /data/data/com.termux/files  
+```  
+- Restore:
+```bash  
+tar -zxvf termux-backup.tar.gz -C /data/data/com.termux/files  
+```  
+
+
+## Pro Tips
+
+- **Use `tmux` for multitasking**  
+- **Enable `termux-wake-lock` to prevent sleep**  
+- **Store scripts in `~/storage/shared/termux-scripts`**  
+- **Use `termux-api` for Android integration**  
