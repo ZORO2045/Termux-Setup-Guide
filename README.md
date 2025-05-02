@@ -102,12 +102,6 @@ Ensure the following languages are installed for development:
 pkg clean  
 apt autoremove  
 ```  
-
-- Check for Broken Packages
-```bash  
-pkg check  
-```  
-
 - Backup & Restore
 ```bash  
 tar -zcvf termux-backup.tar.gz /data/data/com.termux/files  
