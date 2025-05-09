@@ -118,3 +118,6 @@ tar -zxvf termux-backup.tar.gz -C /data/data/com.termux/files
 - **Enable `termux-wake-lock` to prevent sleep**  
 - **Store scripts in `~/storage/shared/termux-scripts`**  
 - **Use `termux-api` for Android integration**  
+
+## ☕️ Support My Work 
+[![Binance](https://img.shields.io/badge/Binance-%23F0B90B.svg?style=for-the-badge&logo=binance&logoColor=white&labelColor=black&color=%23F0B90B&label=Donate%20BNB)](https://pay.binance.com/en?merchantId=738956783)
