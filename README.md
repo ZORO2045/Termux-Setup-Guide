@@ -26,12 +26,13 @@ termux-change-repo  # Change to a faster mirror
 ```
 
 #### **Storage Permission Issues**
+
+Run the following command to grant Termux access to shared storage:
+
 ```bash
-# Fix storage access problems
 termux-setup-storage
-# If it fails:
-rm -rf ~/storage
-termux-setup-storage
+```
+If the command fails, go to Android Settings → Apps → Termux → Permissions and make sure Storage access is allowed, then restart Termux again.
 ```
 
 #### **"Command Not Found" Errors**
